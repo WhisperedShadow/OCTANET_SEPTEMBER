@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Frost Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand" href="#">Durai Pon Singh</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="hero" class="d-flex justify-content-center align-items-center vh-100">
+        <div class="text-center">
+            <h1 class="display-4 text-dark">Durai Pon Singh</h1>
+            <p class="lead text-dark">Aspiring Full-Stack Developer</p>
+            <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
+        </div>
+    </section>
+    
+    <section id="about" class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://wallpapercave.com/wp/wp12653692.jpg" alt="Durai Pon Singh" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-6">
+                <h2>About Me</h2>
+                <p>Hello! I'm Durai Pon Singh, a passionate Web Developer with a keen interest in Full-Stack development. I
+                    specialize in creating responsive websites that not only meet the needs of my clients but also push
+                    the boundaries of innovation.
+
+                    With a solid background in HTML, CSS, JS, FLASK, MYSQL. I bring a combination of technical skills
+                    and creative thinking to every project I undertake. I thrive in environments where I can solve
+                    complex problems and deliver solutions that make an impact.
+
+                    Feel free to explore my work, and don’t hesitate to reach out if you’re interested in collaborating
+                    or have any questions. I’m always excited to connect with like-minded professionals and explore new
+                    opportunities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container my-5">
+        <h2 class="text-center">Skills</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <i class="fab fa-html5 fa-3x"></i>
+                <h5>HTML</h5>
+            </div>
+            <div class="col-md-4">
+                <i class="fab fa-css3-alt fa-3x"></i>
+                <h5>CSS</h5>
+            </div>
+            <div class="col-md-4">
+                <i class="fab fa-js fa-3x"></i>
+                <h5>JavaScript</h5>
+            </div>
+            <div class="col-md-4">
+                <i class="fab fa-python fa-3x"></i>
+                <h5>Python</h5>
+            </div>
+            <div class="col-md-4">
+                <i class="fa-brands fa-bootstrap fa-3x" ></i>
+                <h5>Bootstrap</h5>
+            </div>
+            <div class="col-md-4">
+                <i class="fa-brands fa-react fa-3x"></i>
+                <h5>React</h5>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="container my-5">
+        <h2 class="text-center">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-vector/new-app-development-desktop_23-2148684987.jpg?t=st=1725431168~exp=1725434768~hmac=50ecc28dc467b10e1eb10d3ebb0a794c2876c45152e9900f4c91464b98f5d1a9&w=740" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website Project</h5>
+                        <p class="card-text">This project showcases my ability to design and develop a personal
+                            portfolio website from the ground up. The site is a reflection of my skills in HTML,CSS,JS,bootstrap and it serves as a dynamic
+                            platform to present my work, share my experiences, and connect with potential clients or
+                            employers. The goal of this website is to create a seamless, user-friendly experience that
+                            effectively highlights my projects and expertise.
+
+                            Explore the website to learn more about my journey and the work I’m passionate about.
+
+                        </p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <section id="contact" class="container my-5">
+        <h2 class="text-center">Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Durai Pon Singh. All rights reserved.</p>
+        <div>
+            <a href="#" class="text-white"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-github fa-2x"></i></a>
+        </div>
+    </footer>
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>

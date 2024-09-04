@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+header .navbar {
+    background: transparent;
+    transition: background 0.5s;
+}
+
+header .navbar.scrolled {
+    background: white;
+}
+
+#hero {
+    height: 100vh;
+    background: url('../img/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+#about, #skills, #projects, #contact {
+    padding: 60px 0;
+}
+
+footer {
+    background: #333;
+    color: white;
+}
