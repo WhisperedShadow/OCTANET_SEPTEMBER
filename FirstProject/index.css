@@ -14,12 +14,15 @@ header .navbar.scrolled {
 
 #hero {
     height: 100vh;
-    background: url('../img/hero-bg.jpg') no-repeat center center/cover;
+    background: url('https://images.unsplash.com/photo-1547044479-59ce6c0a784a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
     color: white;
     text-align: center;
 }
 
-#about, #skills, #projects, #contact {
+#about,
+#skills,
+#projects,
+#contact {
     padding: 60px 0;
 }
 
